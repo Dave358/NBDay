@@ -31,7 +31,7 @@ body {
 
 .my-text {
   text-align: center;
-  margin: auto;
+  margin: 10px auto;
   color: #3190ca;
   font-size: 2rem;
 }
@@ -39,4 +39,65 @@ body {
 .my-modalText {
   font-size: 1.5rem;
   color: #3190ca;
+}
+
+.my-navigation {
+  margin: 2rem auto;
+}
+
+.my-navigation a {
+  font-size: 1.3rem;
+  margin-left: 1em;
+  color: #777;
+}
+
+.my-navigation a:first-child {
+  margin-left: 0em;
+}
+
+.my-navigation a:hover {
+  color: #2e97d8;
+}
+
+.bg-vidGallery {
+  background-color: #fff;
+  padding-bottom: 26px;
+}
+
+/** PHOTO GALLERY MODAL **/
+
+.lb-data .lb-number {
+  font-size: 1.5rem;
+  color: #3190ca;
+}
+
+.lb-outerContainer {
+  background-color: #3190ca;
+}
+
+.img-fluid:hover {
+  opacity: 0.7;
+  transition: all 0.15s;
+  cursor: pointer;
+}
+
+/** MEDIA QUERIES **/
+
+@media (max-width: 500px) {
+  .my-title {
+    font-size: 3.35rem;
+  }
+
+  .my-image {
+    margin: 3rem auto;
+  }
+
+  .my-navigation a {
+    font-size: 1.3rem;
+    margin-left: 0.5em;
+  }
+
+  .bg-vidGallery {
+    padding-bottom: 0;
+  }
 }
